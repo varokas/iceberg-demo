@@ -8,13 +8,12 @@ packages = [{include = "iceberg_demo"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pyiceberg = {extras = ["s3fs", "hive", "glue", "pyarrow]"], version = "^0.3.0"}
+pyiceberg = {extras = ["s3fs", "hive", "glue", "pyarrow"], version = "^0.6.1"}
 pandas = "^1.5.3"
 pyarrow = "^11.0.0"
 jupyterlab = "^3.6.1"
 pyspark = {extras = ["sql"], version = "^3.3.2"}
 sparkmagic = "^0.20.4"
-
 
 [build-system]
 requires = ["poetry-core"]
